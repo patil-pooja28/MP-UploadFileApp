@@ -1,0 +1,38 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-button expand="full" (click)="openLocalPdf()">Open Local PDF</ion-button>
+  <ion-button expand="full" (click)="downloadAndOpenLocalPdf()">Download File</ion-button>
+</ion-content> -->
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      File Upload
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-button expand="block" color="dark" (click)="openLocalPdf()">
+        Open Local PDF
+      </ion-button>
+    </ion-card-header>
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-button expand="block" color="dark" (click)="downloadAndOpenLocalPdf()">
+        Download File
+      </ion-button>
+    </ion-card-header>
+  </ion-card>
+  

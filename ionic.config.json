@@ -1,0 +1,7 @@
+{
+  "name": "MP5",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
